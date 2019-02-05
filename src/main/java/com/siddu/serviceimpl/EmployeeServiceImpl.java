@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.siddu.dao.EmployeeDao;
-import com.siddu.domain.Employee;
+import com.siddu.programatic.txn.mange.transactiontemplate.Employee;
 import com.siddu.service.EmployeeService;
 
 @Service

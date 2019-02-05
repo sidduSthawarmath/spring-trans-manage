@@ -14,8 +14,6 @@ import org.springframework.transaction.support.DefaultTransactionDefinition;
 import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 import org.springframework.transaction.support.TransactionTemplate;
 
-import com.siddu.domain.Employee;
-
 @Repository
 public class EmployeeDaoTxnTemaplateServiceImpl implements EmployeeDaoTxnTemaplateService {
 

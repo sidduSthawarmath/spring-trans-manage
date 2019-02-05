@@ -1,4 +1,4 @@
-package com.siddu.domain;
+package com.siddu.programatic.txn.mange.transactiontemplate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

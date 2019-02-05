@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.siddu.dao.EmployeeDao;
-import com.siddu.domain.Employee;
+import com.siddu.programatic.txn.mange.transactiontemplate.Employee;
 
 @Repository
 public class EmployeeDaoImpl implements EmployeeDao {

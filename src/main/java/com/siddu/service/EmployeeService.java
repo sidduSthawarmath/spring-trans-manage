@@ -1,6 +1,6 @@
 package com.siddu.service;
 
-import com.siddu.domain.Employee;
+import com.siddu.programatic.txn.mange.transactiontemplate.Employee;
 
 public interface EmployeeService {
 
