@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.google.gson.Gson;
-import com.siddu.service.EmployeeService;
+import com.siddu.service.BankService;
 
 @RequestMapping("emptxntmeplate")
 @RestController

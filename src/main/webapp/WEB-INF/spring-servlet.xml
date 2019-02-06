@@ -12,11 +12,11 @@
 		">
 
 <!-- Declarative transaction management -->
-	<import resource="programtic-txn-manage-transaction-template.xml" />
+	<!-- <import resource="programtic-txn-manage-transaction-template.xml" /> -->
 	
 
 	<!-- Declarative transaction management -->
-	<!-- <import resource="declarative-txn-manage.xml" /> -->
+	 <import resource="declarative-txn-manage.xml" /> 
 	
 	
 	

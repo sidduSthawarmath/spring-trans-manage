@@ -11,6 +11,10 @@
 		http://www.springframework.org/schema/tx/spring-tx.xsd
 		">
 
+	<!-- Scans the classpath for annotated components that will be auto-registered 
+		as Spring beans -->
+	<context:component-scan base-package="com.siddu" />
+	
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
@@ -38,6 +42,10 @@
 	<tx:annotation-driven transaction-manager="transactionManager" />
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+	
+	<bean id="bankDaoImpl" class="com.siddu.daoImpl.BankDaoImpl">
+	<property name="dataSource" ref="dataSource"/>
 	</bean>
 
 </beans>
