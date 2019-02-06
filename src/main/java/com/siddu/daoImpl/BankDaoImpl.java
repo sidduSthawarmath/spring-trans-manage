@@ -32,6 +32,8 @@ public class BankDaoImpl implements BankDao {
 		System.out.println("Amount Rs." + amount + " Transfered from account " + fromAccount.getAccountNumber() + " to "
 				+ toAccount.getAccountNumber());
 	}
+	
+	
 
 	public void deposit(Account fromAccount, Account toAccount, Double amount) {
 		jdbcTemplate = new JdbcTemplate(dataSource);
